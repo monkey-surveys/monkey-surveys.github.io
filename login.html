@@ -7,10 +7,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google Font to look more similar to SurveyMonkey -->
-    <link href="https://fonts.googleapis.com/css2?family=Aileron:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
       .card-title {
-        font-family: 'Aileron', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 2.1rem;
+      }
+      .default-text {
+        font-family: 'Work Sans', sans-serif;
         font-weight: 300;
       }
     </style>
@@ -25,13 +30,13 @@
           <form>
             <div class="form-group">
               <label for="usernameInput">Username</label>
-              <input type="text" class="form-control" id="usernameInput" placeholder="Enter Username">
+              <input type="email" class="default-text form-control" id="usernameInput" placeholder="Enter Username">
             </div>
             <div class="form-group">
               <label for="passwordInput">Password</label>
-              <input type="password" class="form-control" id="passwordInput" placeholder="Enter Password">
+              <input type="password" class="default-text form-control" id="passwordInput" placeholder="Enter Password">
             </div>
-            <button type="submit" style="background-color: #03bf6f;" class="btn btn-primary btn-block">Login</button>
+            <button type="submit" style="background-color: #03bf6f;" class="default-text btn btn-primary btn-block">Log in</button>
           </form>
         </div>
       </div>
