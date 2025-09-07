@@ -13,6 +13,8 @@
         font-family: 'Work Sans', sans-serif;
         font-weight: 325;
         font-size: 2.2rem;
+        color: #03bf6f;
+
       }
       .default-text {
         font-family: 'Work Sans', sans-serif;
@@ -22,44 +24,14 @@
         font-family: 'Work Sans', sans-serif;
         font-weight: 360;
       }
-      .btn-primary:focus {
-        outline-color: #03bf6f !important;
-      }
     </style>
     <title>Survey Monkey</title>
   </head>
-  <body style="background-color: #f7f8fa;" class="bg-light d-flex justify-content-center align-items-center vh-100">
-    <div>
-      <div class="text-center">
-        <img src="monkey-survey-logo.png" style="max-width: 380px;" alt="Logo" class="mb-3 text-center">
-      </div>
-      <div class="card shadow p-4" style="max-width: 420px; width: 100%;">
-        <div class="card-body">
-          <div class="text-end">
-            <p class="default-text">
-              Don’t have an account? 
-              <a class="default-text" href="https://monkey-surveys.github.io/create-account">Sign Up</a>
-            </p>
-          </div>
-          <h3 class="card-title mb-4">Log in</h3>
-          <form>
-            <div class="form-group">
-              <label class="label-text" for="usernameInput">Email address</label>
-              <input type="email" class="default-text form-control" id="usernameInput" placeholder="">
-            </div>
-            <div class="form-group">
-              <label class="label-text" for="passwordInput">Password</label>
-              <input type="password" class="default-text form-control" id="passwordInput" placeholder="">
-            </div>
-            <button type="submit" style="background-color: #03bf6f; color: white;" class="label-text btn btn-block">Log in</button>
-          </form>
-        </div>
-      </div>
-      <div class="text-center" style="padding: 1rem">
-        <a class="default-text text-decoration-underline" style="font-weight: 360" href="https://monkey-surveys.github.io/download">Download the App</a>
-      </div>
+  <body style="background-color: #f7f8fa;" class="d-flex flex-column justify-content-center align-items-center vh-100">
+    <p class="card-title">Downloading...</p>
+    <div class="spinner-border text-success" role="status">
+        <span class="sr-only">Downloading...</span>
     </div>
-    
     <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
